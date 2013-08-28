@@ -5,8 +5,8 @@ module Formtastic
 
       def to_html
         input_wrapping do
-          hour_value   = builder.object.send("#{method}_hour").nil?   ? 0 : builder.object.send("#{method}_hour")
-          minute_value = builder.object.send("#{method}_minute").nil? ? 0 : builder.object.send("#{method}_minute")
+          hour_value   = builder.object.send("#{method}_hour").nil?   ? 0 : builder.object.send("#{method}_hour") rescue 0
+          minute_value = builder.object.send("#{method}_minute").nil? ? 0 : builder.object.send("#{method}_minute") rescue 0
 
           hour_value   = sprintf("%02d", hour_value)
           minute_value = sprintf("%02d", minute_value)
