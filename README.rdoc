@@ -113,7 +113,7 @@ In ActiveAdmin 0.4.x you must strip body.active_admin from CSS declarations.
 
 == Available locales
 
-en, pl, zh-CN
+en, pl, zh-CN, fr
 
 == Versions known to work
 
