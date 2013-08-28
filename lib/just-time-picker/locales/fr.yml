@@ -1,0 +1,11 @@
+fr:
+  activerecord:
+    errors:
+      messages:
+        just_time_invalid_hour: "Heure invalide"
+        just_time_invalid_minute: "Minutes invalides"
+  mongoid:
+    errors:
+      messages:
+        just_time_invalid_hour: "eure invalide"
+        just_time_invalid_minute: "Minutes invalides"
